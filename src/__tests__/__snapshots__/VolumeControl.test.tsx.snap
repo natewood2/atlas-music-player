@@ -1,0 +1,44 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders VolumeControls 1`] = `
+<div>
+  <div
+    class="flex w-full items-center space-x-2"
+  >
+    <svg
+      class="lucide lucide-volume2"
+      fill="none"
+      height="20"
+      stroke="currentColor"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      width="20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"
+      />
+      <path
+        d="M16 9a5 5 0 0 1 0 6"
+      />
+      <path
+        d="M19.364 18.364a9 9 0 0 0 0-12.728"
+      />
+    </svg>
+    <div
+      class="relative flex-1"
+    >
+      <input
+        class="h-1 w-full cursor-pointer appearance-none rounded-lg bg-black/25"
+        max="100"
+        min="0"
+        style="background-repeat: no-repeat;"
+        type="range"
+        value="75"
+      />
+    </div>
+  </div>
+</div>
+`;
