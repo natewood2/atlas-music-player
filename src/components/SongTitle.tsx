@@ -12,8 +12,8 @@ export default function SongTitle({ song }: SongTitleProps) {
     return (
       <div className="mt-8 text-center">
         {/* I dont think this is working */}
-        <div className="h-6 w-48 bg-gray-200 animate-pulse rounded-md mb-2"></div>
-        <div className="h-4 w-32 bg-gray-200 animate-pulse rounded-md"></div>
+        <div className="h-6 w-48 bg-gray-200 rounded-md mb-2"></div>
+        <div className="h-4 w-32 bg-gray-200 rounded-md"></div>
       </div>
     );
   }
